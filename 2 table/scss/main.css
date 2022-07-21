@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(217, 225, 236);
+  background: linear-gradient(150deg, rgb(217, 225, 236) 23%, rgb(240, 243, 248) 50%, rgb(254, 254, 254) 100%);
+}
+
+table {
+  width: 250px;
+  border: 1px solid #222;
+}
+
+thead, tbody, tr, th, td {
+  border: 1px solid #222;
+}
+
+th, td {
+  font-weight: bold;
+}
+
+tbody > tr:nth-child(3) > td {
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */

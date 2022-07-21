@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 600px;
+  height: 300px;
+}
+
+table, thead, tbody, tr, td, th {
+  border-collapse: collapse;
+  border: 1px solid #999;
+}
+
+thead > tr > th {
+  background-color: rgba(28, 120, 233, 0.754);
+  font-weight: bold;
+}
+
+tbody > tr > td > a {
+  color: black;
+}
+
+tbody > tr:nth-child(2n) {
+  background-color: rgba(32, 104, 229, 0.227);
+}/*# sourceMappingURL=main.css.map */
